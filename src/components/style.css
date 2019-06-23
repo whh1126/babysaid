@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+html,
+body,
+#root {
+    width: 100%;
+    height: 100%;
+    background: #eee;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    background: #ccc;
+    display: flex;
+    justify-content: space-around;
+}
+
+.header a {
+    color: #000;
+    text-decoration: none;
+
+}
+
+section {
+    width: 100%;
+    flex: 1;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    display: flex;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav a {
+    color: #000;
+}
+
+.dl {
+    width: 200px;
+    height: 100px;
+    display: flex;
+}
+
+.dl dt {
+    width: 100px;
+    height: 100px;
+}
+
+.dl dt img {
+    width: 100%;
+}
+
+.dl dt dd {
+    text-align: center;
+}
+
+.all {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    width: 100%;
+}
+
+.top img {
+    width: 100%;
+}
+
+.bot {
+    width: 50%;
+}
+
+.head {
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    background: #eee;
+    display: flex;
+    justify-content: space-around;
+}
+
+.con {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.con p {
+    width: 100%;
+    height: 50px;
+    background: #fff;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.close {
+    width: 95%;
+    height: 50px;
+    margin-top: 10px;
+
+    line-height: 50px;
+    background: red;
+    color: #fff;
+    text-align: center;
+    margin-left: 10px;
+
+}
